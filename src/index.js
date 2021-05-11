@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Book from './Book';
+import Test from './llibres'
 
 
 
@@ -11,16 +11,15 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-
-
   document.getElementById('root')
 );
 
-ReactDOM.render(
- < Book />, 
-  document.getElementById('root')
-  );
 
+
+  ReactDOM.render(
+    <Test />,
+    document.getElementById('root')
+  );
   
 
 
