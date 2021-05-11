@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Test from './llibres'
+import Book from './Book';
 
 
 
@@ -17,7 +17,7 @@ ReactDOM.render(
 
 
   ReactDOM.render(
-    <Test />,
+    <Book />,
     document.getElementById('root')
   );
   
